@@ -1,0 +1,201 @@
+.center{
+    text-align: center;
+    vertical-align: middle;
+}
+.card {
+    position: relative;
+    margin: 0.5rem 0 1rem 0;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    height: auto;
+}
+.card .card-content {
+    padding: 20px;
+    border-radius: 0 0 2px 2px;
+}
+.blue.lighten-1 {
+    background-color: #42A5F5 !important;
+}
+.card .card-content .card-title {
+    line-height: 48px;
+}
+.white-text {
+    color: #fff !important;
+}
+.card .card-title {
+    font-size: 24px;
+    font-weight: 300;
+}
+.card .card-action {
+    position: relative;
+    background-color: inherit;
+    border-top: 1px solid rgba(160,160,160,0.2);
+    padding: 20px;
+    z-index: 2;
+}
+.hoverable:hover {
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+table.striped > tbody > tr:nth-child(odd) {
+    background-color: #e2e2e2;
+}
+.box-shadow{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.pic-title{
+    margin-bottom: 50px;
+}
+.img-size{
+    max-width: 200px !important;
+    max-height: 200px !important;
+    border-radius: 50%;
+}
+.img-dropdown-menu{
+    max-width: 30px !important;
+    max-height: 30px !important;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.content-section{
+    position: relative;
+    width: 50%;
+    margin: auto;
+    padding: 15%
+}
+video{
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+.countdown{
+    width: auto;
+    height: 250px;
+    margin-top: 25px;
+    text-align: center; 
+    font-size: 60px;
+}
+.flags{
+    max-width: 30px !important;
+    max-height: 30px !important;
+    margin-left: 20px;
+}
+
+/*css send deligate*/
+}
+#regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 50%;
+  min-width: 300px;
+}
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+#prevBtn {
+  background-color: #bbbbbb;
+}
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+.step.active {
+  opacity: 1;
+}
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+.sfield
+{
+    max-width: 100px !important;
+    max-height: 100px !important;
+}
+
+.inputfile-1 + label {
+    color: #f1e5e6;
+    background-color: #d3394c;
+}
+.inputfile + label {  
+    max-width: 100%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+}
+.bottom20{
+	margin-bottom: 20px;
+}
+
+.scroll{
+  padding: 10px;
+  overflow: auto;
+  background-color: transparent;
+  
+  /*script tambahan khusus untuk IE */
+  scrollbar-face-color: #CE7E00; 
+  scrollbar-shadow-color: #FFFFFF; 
+  scrollbar-highlight-color: #6F4709; 
+  scrollbar-3dlight-color: #11111; 
+  scrollbar-darkshadow-color: #6F4709; 
+  scrollbar-track-color: #FFE8C1; 
+  scrollbar-arrow-color: #6F4709;
+}
+
+.mvideo
+{
+  display: none;
+}
+
+.desktopview
+{
+  display: inline;
+}
+.mobile
+{
+  display: none;
+}
+
+@media only screen and (max-width: 768px)
+{
+  video
+  {
+    display: none;
+  }
+  .mvideo
+  {
+    display: inline;
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+  }
+  .desktopview
+  {
+    display: none;
+  }
+  .mobile
+  {
+    display: inline;
+  }
+}
